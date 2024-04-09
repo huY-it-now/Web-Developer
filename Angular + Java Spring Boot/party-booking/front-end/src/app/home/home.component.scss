@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container {
+    font-family: 'Figtree', sans-serif;
+    
+}
+
+.intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.intro-image {
+    width: 100%;
+}
+
+.d-inline-flex a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+p {
+    font-size: 16px;
+    color: #4D4D4D;
+}
+
+.element-enter-child {
+    border: 1px solid #E8E8E8;
+    box-shadow: 0 0 1px #F4F4F4;
+    border-radius: 10px;
+    height: 250px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.element-enter-child:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.title {
+    font-size: 19px;
+    color: #482366;
+    font-weight: 500;
+}
