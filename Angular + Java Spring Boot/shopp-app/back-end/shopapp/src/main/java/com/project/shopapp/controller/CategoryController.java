@@ -13,7 +13,7 @@ import java.util.List;
 import static java.util.stream.Collectors.toList;
 
 @RestController
-@RequestMapping("api/v1/categories")
+@RequestMapping("${api.prefix}/categories")
 public class CategoryController {
     //Hiển thị tất cả các Category
     @GetMapping("")//http://localhost:8088/api/v1/categories?page=1&limit=10
